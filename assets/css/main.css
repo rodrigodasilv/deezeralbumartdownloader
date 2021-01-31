@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Deezer';
+    src: url('../fonts/Mabry\ Pro.otf');  
+}
+
+.custom-font{
+    font-family: 'Deezer', sans-serif;
+}
+
+.text-white{
+    color:white;
+}
+
+.dark-bg{
+    background-color:#121216
+}
+
+.bar{
+    padding-left: 14px;
+    height: 32px; 
+    font-size: 16px; 
+    color: white; 
+    border:none;
+ }
+ 
+.deezer-border{
+    border-bottom: 1px solid #32323d;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.red-bg{
+    background-color:#df3c3c;
+}
